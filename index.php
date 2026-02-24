@@ -12,4 +12,4 @@ if (!in_array($page, $allowed)) {
     include __DIR__ . "/pages/$page.php";
 }
 
-include __DIR__ . '/includes/foooter.php';
+include __DIR__ . '/includes/footer.php';
