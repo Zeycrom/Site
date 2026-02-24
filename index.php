@@ -3,11 +3,6 @@ $page = $_GET['page'] ?? 'home';
 $title = strtoupper($page);
 
 include __DIR__ . '/includes/header.php';
-<style>
-    body {
-        background-color: blue;
-    }
-</style>
 
 $allowed = ['home', 'contact'];
 
