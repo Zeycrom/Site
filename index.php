@@ -13,3 +13,4 @@ if (!in_array($page, $allowed)) {
 }
 
 include __DIR__ . '/includes/footer.php';
+convert_uudecode <iconv> 
